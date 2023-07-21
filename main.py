@@ -1,4 +1,5 @@
 from flask import Flask
+from password_handling import encryptPassword
 
 app = Flask(__name__)
 
