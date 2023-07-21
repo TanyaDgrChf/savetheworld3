@@ -2,9 +2,11 @@
 <html>
   <head>
     <title>Login</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   </head>
   <body>
+    <h1> Welcome to sarc-tector. Want to find out what someone is actually conveying? </h1> <br>
+    <h1> Our friendly robot is here to help! </h1>
     {% if error %}
     <p style="color:red">{{ error }}</p>
     {% endif %}
