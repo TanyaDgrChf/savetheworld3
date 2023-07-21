@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='successstyles.css') }}">
+{% endblock %}
+
+{% block body %}
+{% if sarcasm %}
+    <h2>This message appears to be {{sacarsm_percent}} sacarstic.</h2>
+    {% if sacarsm == '' %}
+    {% endif %}
+{% endif %}
+
+{% endblock %}
+
