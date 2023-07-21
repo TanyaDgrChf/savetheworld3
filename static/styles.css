@@ -1,0 +1,31 @@
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: black;
+    color: white;
+  }  
+}
+
+@media (prefers-color-scheme: light){
+  body{
+    background-color: white;
+    color: black;
+  }
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+input[type="submit"],
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
