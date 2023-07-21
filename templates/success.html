@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='successstyles.css') }}">
+{% endblock %}
+
+{% block body %}
+{% if predicted_class %}
+    <h2>This appears to be {{msg}}</h2>
+    {% if predicted_class == '' %}
+    {% endif %}
+{% endif %}
+
+{% endblock %}
+
