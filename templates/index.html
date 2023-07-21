@@ -5,5 +5,9 @@
 {% endblock %}
 
 {% block body %}
-
+<form>
+  <label for="multiLineInput">Enter your message:</label>
+  <textarea id="multiLineInput" name="message" rows="4" cols="50" placeholder="Type here..."></textarea>
+  <input type="submit" value="Enter">
+</form>
 {% endblock %}
