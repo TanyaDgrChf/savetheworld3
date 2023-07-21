@@ -5,9 +5,9 @@
 {% endblock %}
 
 {% block body %}
-{% if predicted_class %}
-    <h2>This appears to be {{msg}}</h2>
-    {% if predicted_class == '' %}
+{% if sarcasm %}
+    <h2>This message appears to be {{sacarsm_percent}} sacarstic.</h2>
+    {% if sacarsm == '' %}
     {% endif %}
 {% endif %}
 
